@@ -5,21 +5,20 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCbOmeoIEq2j3NH7QWse_FzrbnItWl3ScU",
-    authDomain: "iubh-94e4d.firebaseapp.com",
-    projectId: "iubh-94e4d",
-    storageBucket: "iubh-94e4d.appspot.com",
-    messagingSenderId: "697847648197",
-    appId: "1:697847648197:web:cb78f354842a95602c85ac",
-    measurementId: "G-DG8FXEVHNZ"
+  apiKey: "AIzaSyCJZECHevu2xpFk8eEV9qDs9l1vATyyjxo",
+  authDomain: "chatroom-c9a90.firebaseapp.com",
+  projectId: "chatroom-c9a90",
+  storageBucket: "chatroom-c9a90.appspot.com",
+  messagingSenderId: "599051420288",
+  appId: "1:599051420288:web:e819dd7a8fd9a03db0dc65",
+  measurementId: "G-SNJRBHWJSX",
 };
 // Initialize Firebase
+
 const app = initializeApp(firebaseConfig);
 
 // Initialize Services
 const db = getFirestore();
 const auth = getAuth();
 const storage = getStorage(app);
-// const timestamp = getFirestore().FieldValue.serverTimestamp;
-
 export { db, auth, storage };

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="outer-div">
     <div class="herosection">
       <div class="content">
         <h1>Aditya Saxena</h1>
@@ -66,10 +66,10 @@ h3 {
   width: 42rem;
   /* margin-inline: 0rem; */
 }
-.img {
+/* .img {
   margin-inline: 4rem;
   width: 200px;
-}
+} */
 
 button {
   margin-block: 2rem;
@@ -121,7 +121,21 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-/* .work h2 {
-  font-size: 1vw;
-} */
+@media only screen and (max-width: 1160px) {
+  .outer-div {
+  }
+  .herosection {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap-reverse;
+  }
+  .image img {
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .content {
+    margin-inline: 2rem;
+  }
+}
 </style>
