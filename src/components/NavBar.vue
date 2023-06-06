@@ -2,7 +2,7 @@
   <div class="nav1">
     <div class="navbar-bg">
       <div class="navbar">
-        <li class="hover-underline-animation">Home</li>
+        <li class="hover-underline-animation"> Home</li>
         <li class="hover-underline-animation">Testimonials</li>
         <li class="hover-underline-animation">Recent Work</li>
         <li class="hover-underline-animation">Get In Touch</li>
@@ -13,7 +13,7 @@
     <div class="navbar-bg">
       <div class="navbar">
         <img src="../assets/list.svg" class="icon" id="button" />
-        <li class="hover-underline-animation flip">Home</li>
+        <li class="hover-underline-animation flip"> Home</li>
         <li class="hover-underline-animation flip">Testimonials</li>
         <li class="hover-underline-animation flip">Recent Work</li>
         <li class="hover-underline-animation flip">Get In Touch</li>
@@ -34,6 +34,7 @@ import { onMounted } from "vue";
 export default {
   setup() {
     onMounted(() => {
+      // Script for Sidebar
       const button = document.getElementById("button");
       const data = document.getElementById("side");
       console.log(button.classList);
@@ -88,6 +89,8 @@ li:hover {
 .side-bar {
   display: none;
 }
+/* Responsive Media Queries 1  */
+
 @media only screen and (max-width: 1160px) {
   .nav2 {
     display: block !important;
@@ -105,6 +108,7 @@ li:hover {
     border-radius: 0px;
   }
 }
+/* Responsive Media Queries 2  */
 
 @media only screen and (max-width: 700px) {
   .content {

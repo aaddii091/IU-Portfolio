@@ -1,9 +1,11 @@
 <template>
+  <!-- Work Section  -->
   <div class="margins">
     <h1 class="header">Recent Work</h1>
     <div class="work_sample">
       <div class="card">
         <div class="card-inner">
+          <!-- Ecommerce Website  -->
           <div class="img-outer">
             <img src="../assets/Screenshot 2023-01-25 235518.png" alt="" />
           </div>
@@ -16,14 +18,15 @@
             your favorite items
           </h3>
           <a
-            href="https://aaddii091.github.io/Clothify-E-Commerce-/"
-            target="_blank"
-            ><button>Visit ></button></a
+          href="https://aaddii091.github.io/Clothify-E-Commerce-/"
+          target="_blank"
+          ><button>Visit ></button></a
           >
         </div>
       </div>
       <div class="card">
         <div class="card-inner">
+          <!-- NFT Website -->
           <div class="img-outer">
             <img src="../assets/nft.png" alt="" />
           </div>
@@ -47,6 +50,7 @@
 <script setup></script>
 
 <style scoped>
+/* Custom CSS  */
 * {
   margin: 0;
   background-color: #f5f5f5;
@@ -98,7 +102,6 @@ h3 {
   margin: 5px 0px;
 }
 .work_sample {
-  /* width: 100%; */
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;

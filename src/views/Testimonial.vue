@@ -1,4 +1,5 @@
 <template>
+  <!-- This comp is displaying the testimonials  -->
   <div class="margins">
     <div>
       <h1 class="header">Testimonials</h1>
@@ -74,17 +75,16 @@
 <script setup></script>
 
 <style scoped>
+/* Custom CSS  */
 * {
   margin: 0;
   color: var(--text);
-  /* background: whitesmoke; */
 }
 .header {
   color: #ffff;
   text-align: center;
   font-size: 2.5rem;
   margin-block: 5vw;
-  /* font-family: "Raleway", sans-serif; */
 }
 .card {
   margin: 20px;

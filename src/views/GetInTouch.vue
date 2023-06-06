@@ -1,4 +1,5 @@
 <template>
+  <!-- This comp is defining the contact section  -->
   <h1 class="header">Get In Touch</h1>
   <div>
     <div class="form-outer">
@@ -146,6 +147,8 @@ footer {
   background: var(--bg1);
   border-radius: 20px 20px 0px 0px;
 }
+/* Responsive Media Queries 1  */
+
 @media only screen and (max-width: 1160px) {
   input {
 

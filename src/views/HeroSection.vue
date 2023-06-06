@@ -41,6 +41,7 @@
 <script setup></script>
 
 <style scoped>
+/* Custom CSS  */
 * {
   margin: 0;
   color: var(--text);
@@ -49,7 +50,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* margin-inline: 8rem; */
+
 }
 h1 {
   color: #ffffff;
@@ -64,12 +65,8 @@ h3 {
 .content {
   height: auto;
   width: 42rem;
-  /* margin-inline: 0rem; */
 }
-/* .img {
-  margin-inline: 4rem;
-  width: 200px;
-} */
+
 
 button {
   margin-block: 2rem;
@@ -110,7 +107,6 @@ h2 {
 .imgdiv {
   height: auto;
   width: 200px;
-  /* margin-left: 8vw; */
 }
 .logos img:hover {
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.349);
@@ -121,18 +117,19 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+/* Responsive Media Queries 1  */
 @media only screen and (max-width: 1160px) {
   .outer-div {
   }
   .herosection {
     display: flex;
-    /* flex-direction: row-reverse; */
     flex-wrap: wrap-reverse;
   }
   .image img {
     height: 300px;
   }
 }
+/* Responsive Media Queries 2  */
 @media only screen and (max-width: 700px) {
   .content {
     margin-inline: 2rem;
