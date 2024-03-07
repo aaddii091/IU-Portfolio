@@ -19,19 +19,19 @@
       <h2>Worked with</h2>
       <div class="logos">
         <div class="imgdiv">
-          <img src="../assets/Logo 1.svg" alt="" class="exp" />
+          <img src="../assets/Logo1.svg" alt="" class="exp" />
         </div>
         <div class="imgdiv">
-          <img src="../assets/Logo 2.svg" alt="" />
+          <img src="../assets/Logo2.svg" alt="" />
         </div>
         <div class="imgdiv">
-          <img src="../assets/Logo 3.svg" alt="" />
+          <img src="../assets/Logo3.svg" alt="" />
         </div>
         <div class="imgdiv">
-          <img src="../assets/Logo 4.svg" alt="" />
+          <img src="../assets/Logo4.svg" alt="" />
         </div>
         <div class="imgdiv">
-          <img src="../assets/Logo 5.svg" alt="" />
+          <img src="../assets/Logo5.svg" alt="" />
         </div>
       </div>
     </div>
@@ -50,7 +50,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 h1 {
   color: #ffffff;
@@ -66,7 +65,6 @@ h3 {
   height: auto;
   width: 42rem;
 }
-
 
 button {
   margin-block: 2rem;

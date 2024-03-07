@@ -15,7 +15,7 @@
               </h3>
             </div>
             <div class="name">
-              <img src="../assets/Client photo 1-1.svg" alt="" />
+              <img src="../assets/CP1.svg" alt="" />
               <h2>Jessica Merlins</h2>
             </div>
           </div>
@@ -30,7 +30,7 @@
               </h3>
             </div>
             <div class="name">
-              <img src="../assets/Client photo 1.svg" alt="" />
+              <img src="../assets/CP2.svg" alt="" />
               <h2>Scarlett Markson</h2>
             </div>
           </div>
@@ -46,7 +46,7 @@
               </h3>
             </div>
             <div class="name">
-              <img src="../assets/Client photo 2-1.svg" alt="" />
+              <img src="../assets/CP3.svg" alt="" />
               <h2>Cristiano Ronaldo</h2>
             </div>
           </div>
@@ -62,7 +62,7 @@
               </h3>
             </div>
             <div class="name">
-              <img src="../assets/Client photo 2.svg" alt="" />
+              <img src="../assets/CP4.svg" alt="" />
               <h2>Jelly Orleans</h2>
             </div>
           </div>

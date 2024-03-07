@@ -7,7 +7,7 @@
         <div class="card-inner">
           <!-- Ecommerce Website  -->
           <div class="img-outer">
-            <img src="../assets/Screenshot 2023-01-25 235518.png" alt="" />
+            <img src="../assets/ss.png" alt="" />
           </div>
           <h2>Ecommerce Website</h2>
           <h3>
@@ -15,12 +15,12 @@
             JavaScript powered website. Browse stylish products, enjoy
             effortless navigation, and shop securely with ease. Responsive and
             optimized for mobile, it's never been easier to find and purchase
-            your favorite items
+            your favorite item
           </h3>
           <a
-          href="https://aaddii091.github.io/Clothify-E-Commerce-/"
-          target="_blank"
-          ><button>Visit ></button></a
+            href="https://aaddii091.github.io/Clothify-E-Commerce-/"
+            target="_blank"
+            ><button>Visit ></button></a
           >
         </div>
       </div>
